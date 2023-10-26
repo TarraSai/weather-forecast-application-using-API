@@ -1,0 +1,11 @@
+
+#links{
+    text-decoration: none;
+}
+.main_header_left button{
+    border:none;
+    padding:08rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    
+}

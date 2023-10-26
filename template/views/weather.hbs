@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     {{>headlink}}
+    
+    <link rel="stylesheet" href="./css/weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    {{>navbar}}
+    <div class="cen">
+    <div class="backbox">
+    <div class="box">
+    <input type="text"  id="textbox"placeholder="Enter city name">
+    <button type="submit" id="submit"><i class=" fa fa-sharp fa-light fa-magnifying-glass"></i></button>
+    </div>
+    <div class="box1">
+<div class="box2" >
+   <span id="date">weather</span> 
+   <p id="day"></p>
+ <i class=" fa fa-solid fa-cloud-sun fa-fade fa-5x"></i>
+
+</span></p> 
+    <div class="outback">
+ <span id="output">ANAKAPALLE</span>
+ </div>
+
+ 
+ <div id="temper"><h3>temp:0°C</h3></div>
+ 
+
+
+</div>
+    </div>
+    </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+  /* background-color: rgb(100, 97, 97); */
+  /* background-image: url('./pink.jpg'); */
+}
+.cen{
+  display:flex;
+  padding-left: 500px;
+padding-top: 80px;
+}
+
+.box{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.backbox{
+
+  width:330px;
+  height:400px;
+  /* background-color: aquamarine; */
+  background-image: linear-gradient(rgb(35, 177, 224),lightgreen);
+  padding-left: 10px;
+  border-radius: 30px;
+ align-items: center;
+ justify-content: center;
+
+
+}
+#textbox{
+    width:215px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   border-radius: 9px;
+}
+#submit{
+    width:70px;
+    height: 45px;
+   
+   padding-bottom: 10px;
+   font-size: x-large;
+     border-radius: 15px;
+     
+}
+.box1{
+    box-sizing: border-box;
+    position:relative; 
+   padding-top: 10px;
+    width:302px;
+    height: 310px;
+    border: 3px solid black;
+    /* background-color: grey; */
+    border-radius: 9px; 
+    
+}
+#date{
+padding-left: 65px;
+padding-top:20px;
+font-size: x-large;
+}
+#day{
+  padding-left: 45px;
+padding-top:20px;
+font-size: x-large;
+}
+.fa{
+ background-image: linear-gradient( black);
+  padding-left: 35%;
+}
+
+#output{
+  
+  padding-left: 75px;
+  padding-top:20px;
+  font-size: x-large;
+
+  }
+  .outback{
+    width:100%;
+  height: 40px;
+  
+  background-color:rgb(240, 248, 255,1);
+  border-radius: 45px;
+  }
+#temper{
+  padding-left: 65px;
+padding-top:20px;
+font-size: x-large;
+/* padding-bottom: 50px; */
+}
